@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge",
-    "wiki": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge/wiki"
+    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge.git",
+    "wiki": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge.wiki.git"
   },
   "keywords": [
     "gitbook",
