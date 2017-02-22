@@ -7,7 +7,7 @@
     "generate-gitbook": "node ./scripts/generate-gitbook.js",
     "generate-wiki": "./scripts/losh generate-wiki",
     "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
-    "deploy-gitbook": "./scripts/losh deploy-gitbook",
+    "deploy-gitbook": "node ./scripts/deploy-gitbook.js",
     "deploy-wiki": "./scripts/losh deploy-wiki",
     "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
     "version": "./scripts/losh version",
@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge.git",
-    "wiki": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge.wiki.git"
+    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge",
+    "wiki": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-airam-jorge/wiki"
   },
   "keywords": [
     "gitbook",
