@@ -27,8 +27,8 @@ Este tutorial explicará los pasos para instalar las diferentes herramientas que
  </tr>
  <tr>
  <td> Kevin Díaz </td>
- <td> <a href="https://github.com/alu010088062">GitHub</a> </td>
- <td> <a href="https://alu010088062.github.io/">Página personal</a></td>
+ <td> <a href="https://github.com/alu0100880625">GitHub</a> </td>
+ <td> <a href="https://alu0100880625.github.io/">Página personal</a></td>
  </tr>
  <tr>
  <td> Jorge Sierra  </td>
