@@ -7,7 +7,9 @@ gulp.task('default', ['build', 'deploy', 'serve']);
 
 gulp.task('build', shell.task(['npm run build']));
 
-gulp.task('deploy', shell.task(['npm run deploy']));
+gulp.task('deploy', ['deployGitbookAndWiki', 'updateRepo']);
+
+gulp.task('deployGitbookAndWiki', shell.task(['npm run deploy']));
 
 gulp.task('serve',  function() {
   return gulp.src('').pipe(shell(['node hello.js']));
